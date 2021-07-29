@@ -1,0 +1,47 @@
+PLINK v1.90b6.10 64-bit (17 Jun 2019)
+Options in effect:
+  --autosome
+  --autosome-num 33
+  --bfile Deer_data/03_26_2020_50k/20200326_Deer_1to35_SNPQC_CEL
+  --freq
+  --homozyg
+  --homozyg-density 70
+  --homozyg-het 0
+  --homozyg-kb 2500
+  --homozyg-snp 40
+  --homozyg-window-missing 4
+  --homozyg-window-snp 35
+  --maf 0.01
+  --missing
+  --out plink_raw_output/final_tests/T2
+  --remove Kintyre_deer.txt
+
+Hostname: SCE-BIO-C05499
+Working directory: M:\PHD 1st YR\plink
+Start time: Mon Mar 30 16:59:14 2020
+
+Random number seed: 1585583955
+15710 MB RAM detected; reserving 7855 MB for main workspace.
+35204 out of 39587 variants loaded from .bim file.
+3067 samples (1599 males, 1426 females, 42 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink_raw_output/final_tests/T2.nosex .
+--remove: 3046 samples remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 374 founders and 2672 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999634.
+--freq: Allele frequencies (founders only) written to
+plink_raw_output/final_tests/T2.frq .
+--missing: Sample missing data report written to
+plink_raw_output/final_tests/T2.imiss, and variant-based missing data report
+written to plink_raw_output/final_tests/T2.lmiss.
+72 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+35132 variants and 3046 samples pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 55414 ROH.
+Results saved to plink_raw_output/final_tests/T2.hom +
+plink_raw_output/final_tests/T2.hom.indiv +
+plink_raw_output/final_tests/T2.hom.summary .
+
+End time: Mon Mar 30 17:02:15 2020

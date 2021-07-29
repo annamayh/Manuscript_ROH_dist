@@ -1,0 +1,46 @@
+PLINK v1.90b6.10 64-bit (17 Jun 2019)
+Options in effect:
+  --autosome
+  --autosome-num 33
+  --bfile Recombination_rate_stuff/KINTYRE_trueCM_pos
+  --freq
+  --homozyg
+  --homozyg-density 70
+  --homozyg-het 0
+  --homozyg-kb 2500
+  --homozyg-snp 40
+  --homozyg-window-missing 4
+  --homozyg-window-snp 35
+  --maf 0.01
+  --missing
+  --out Recombination_rate_stuff/KINTYRE_ROH_trueCMpos
+
+Hostname: SCE-BIO-C05499
+Working directory: M:\PHD 1st YR\plink
+Start time: Fri Oct 23 15:38:44 2020
+
+Random number seed: 1603463924
+15710 MB RAM detected; reserving 7855 MB for main workspace.
+35202 out of 45279 variants loaded from .bim file.
+157 samples (94 males, 62 females, 1 ambiguous) loaded from .fam.
+Ambiguous sex ID written to
+Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 157 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999517.
+--freq: Allele frequencies (founders only) written to
+Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.frq .
+--missing: Sample missing data report written to
+Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.imiss, and variant-based missing
+data report written to Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.lmiss.
+529 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+34673 variants and 157 samples pass filters and QC.
+Note: No phenotypes present.
+--homozyg: Scan complete, found 1227 ROH.
+Results saved to Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.hom +
+Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.hom.indiv +
+Recombination_rate_stuff/KINTYRE_ROH_trueCMpos.hom.summary .
+
+End time: Fri Oct 23 15:38:45 2020
